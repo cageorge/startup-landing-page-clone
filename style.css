@@ -1,0 +1,97 @@
+html {
+	box-sizing:boder-box;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+*, *:before, *:after {
+	box-sizing:inherit; 
+}
+
+body {
+	display: block;
+	margin: 8px;
+	text-align: center;
+}
+
+/*Navigation Section*/
+.top-navigation .links{
+	/*Layout Declaration*/
+	float: right;
+	padding-right: 20em;
+	-webkit-font-smoothing:antialiased;
+	margin-top: 1.7rem;
+	/*Typography Declaration*/
+	font-family: 'Roboto', sans-serif;
+	font-size:1.04rem;
+	color:#838994;
+	letter-spacing: 0.03em;
+
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left:1.53rem;
+}
+
+.top-navigation .links .active {
+	background-color: #fff;
+	color:#4C50858;
+	font-weight: 500;
+
+}
+
+.top-navigation .link li:hover {
+	cursor:pointer;
+	color:#3333333;
+}
+
+.top-navigation >.content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.logo {
+	padding-left: 20em;
+}
+
+/*Introduction Section*/
+.Introduction{ 
+    background-image: url('');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+
+}
+
+
+.introduction{
+    background-image:url('../images/first-background.jpg');
+
+}
+
+.introduction h1{
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+
+.introduction h1, .introduction h3{
+	font font-weight: 100;
+	text-align: center;
+}
+/*The buttons*/
+button {
+	text-shadow:none;
+	border-style: none;
+	border-radius:4px;
+	padding: 1rem 1.5rem;
+	background-color: #D02A00;
+	width: 15em;
+	height: 3em;
+	margin-top:3em;
+	color:white;
+
+}
