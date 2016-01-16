@@ -1,0 +1,146 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+
+body {
+  display: block;
+  margin: 8px;
+  text-align: center;
+}
+
+/*Navigation Section*/
+
+nav .top-navigation {
+  border-width: 1px;
+  border-color: gray; 
+}
+
+.top-navigation {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  z-index: 9999;
+}
+
+.top-navigation .links {
+  /*Layout Declaration*/
+  float: right;
+  padding-right: 2em;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+  /*Typography Declaration*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.04rem;
+  color: #838994;
+  letter-spacing: 0.03em;
+}
+
+.top-navigation .content .links > li {
+  display: inline-block;
+  margin-left: 1.53rem;
+  padding-left: 1rem;
+}
+
+.top-navigation .links .active {
+  background-color: #fff;
+  color: #4C5085;
+  font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-left: 20em;
+  float: left;
+  display: inline-block;
+}
+
+
+/*Introduction Section*/
+.introduction {
+  background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size; cover;
+  height: 559px;
+  width: 1219px;
+  color: white;
+  padding-top: 15rem;
+}
+
+.introduction h1{
+  margin-top: 1.5rem;
+  font-size: 3.4rem;  
+}
+
+.introduction h1, .introduction h3{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+/*The buttons*/
+button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  background-color: #D02A00;
+  width: 15em;
+  height: 3em;
+  margin-top: 3em;
+  color: white;
+}
+
+/*cases*/
+.cases{
+  margin-top: 2em;
+  padding-bottom: 5rem;
+  overflow: hidden;
+}
+
+.cases h2{
+  color:black;
+  font-size: 2.4rem;
+}
+
+.cases >.li .caption{
+  text-align: center;
+  width:33.333333%;
+  list-style-type: none;
+  display:inline-block;
+  margin-top: auto;
+  padding-left: 7rem;
+  ;
+
+}
+.cases > .li {
+  width:240px;
+}
+
+li{
+  display: inline-block;
+  text-align: center;
+}
+
+/*Footer*/
+
+.social {
+  text-align: center;
+}
