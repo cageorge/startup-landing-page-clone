@@ -13,6 +13,12 @@ body {
   text-align: center;
 }
 
+.content {
+  padding: 0 0.938rem;
+  margin:0 auto;
+  min-width: 37.5rem;
+}
+
 /*Navigation Section*/
 
 nav .top-navigation {
@@ -116,23 +122,17 @@ button {
 }
 
 .cases h2{
-  color:black;
-  font-size: 2.4rem;
+  font-size: 2.75rem;
+  margin:1.625rem; 0 3.125rem;
+  font-weight: 300;
 }
 
-.cases >.li .caption{
-  text-align: center;
-  width:33.333333%;
-  list-style-type: none;
+.cases .devices{
+  width: 33.3333%;
   display:inline-block;
-  margin-top: auto;
-  padding-left: 7rem;
-  ;
+  border:1px solid black;
+}
 
-}
-.cases > .li {
-  width:240px;
-}
 
 li{
   display: inline-block;
@@ -144,3 +144,20 @@ li{
 .social {
   text-align: center;
 }
+
+.social .hr {
+  display: block;
+  margin:1.313rem 0;
+}
+.twitter .facebook .instagram { 
+  border-radius: 1.25rem;
+  text-align: center;
+}
+
+.copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
+
+
