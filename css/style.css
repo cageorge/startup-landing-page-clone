@@ -9,24 +9,20 @@ html {
 
 body {
   display: block;
-  margin: 8px;
   text-align: center;
 }
 
 .content {
   padding: 0 0.938rem;
-  margin:0 auto;
+  margin: 0 auto;
   min-width: 37.5rem;
 }
 
 /*Navigation Section*/
 
-nav .top-navigation {
+.top-navigation {
   border-width: 1px;
   border-color: gray; 
-}
-
-.top-navigation {
   background-color: white;
   position: fixed;
   width: 100%;
@@ -72,7 +68,7 @@ nav .top-navigation {
 }
 
 .logo {
-  padding-left: 20em;
+  padding-top: 12px;
   float: left;
   display: inline-block;
 }
@@ -84,18 +80,29 @@ nav .top-navigation {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size; cover;
-  height: 559px;
-  width: 1219px;
   color: white;
-  padding-top: 15rem;
+  height: 50rem;
+  padding-top: 5rem;
+}
+/*
+.introduction {
+  background-image: url('../images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  overflow: auto;
+}*/
+.introduction .content {
+  padding-top: 12rem;
 }
 
-.introduction h1{
+.introduction h1 {
   margin-top: 1.5rem;
   font-size: 3.4rem;  
 }
 
-.introduction h1, .introduction h3{
+.introduction h1, .introduction h3 {
   color: white;
   text-align: center;
   font-weight: 300;
@@ -115,26 +122,25 @@ button {
 }
 
 /*cases*/
-.cases{
+.cases {
   margin-top: 2em;
   padding-bottom: 5rem;
   overflow: hidden;
 }
 
-.cases h2{
+.cases h2 {
   font-size: 2.75rem;
-  margin:1.625rem; 0 3.125rem;
+  margin: 1.625rem; 0 3.125rem;
   font-weight: 300;
 }
 
-.cases .devices{
-  width: 33.3333%;
-  display:inline-block;
-  border:1px solid black;
+.cases .devices {
+  width: 33%;
+  display: inline-block;
 }
 
 
-li{
+li {
   display: inline-block;
   text-align: center;
 }
@@ -145,14 +151,34 @@ li{
   text-align: center;
 }
 
-.social .hr {
+.social hr {
   display: block;
-  margin:1.313rem 0;
+  margin: 1.313rem 50px;
 }
+/*
 .twitter .facebook .instagram { 
   border-radius: 1.25rem;
+  border: 1px solid black;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}*/
+
+.icons { text-align: center; margin-right: 34px; }
+
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #979797;
+  padding: 0.625rem 0;
+  text-align: center;
+  box-sizing: border-box;
 }
+
+
 
 .copy {
   font-size: 0.9rem;
